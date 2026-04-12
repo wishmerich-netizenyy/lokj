@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* zj v1.1.1.1 */
+/* tel/wchat:18720248770 */
+/* name:池野！ */
+
+:root {
+    --zj-venBg-co: #ffffff;
+    --zj-venTe-si: 18px;
+    --zj-venTe-co: #fff;
+    --zj-venTe-ho: #333;
+    --zj-venTe-co1: #008BD6;
+    --zj-venTe-w4: 400;
+    --zj-venTe-w5: 500;
+    --zj-venIc-si: 24px;
+    --zj-venIc-wb: bold;
+
+    --zj-somaBan-co: #fff;
+    --zj-somaBan-si1: 64px;
+    --zj-somaBan-si2: 46px;
+    --zj-somaBan-si3: 16px;
+    --zj-somaBan-w5: 500;
+    --zj-somaBan-w7: 700;
+    --zj-somaBan-icobg: #fff;
+    --zj-somaBan-icoW: 14px;
+
+    --zj-busKing-ff: #fff;
+    --zj-busKing-ff00: #ffffff00;
+    --zj-busKing-f7: #F7F7F7;
+    --zj-busKing-33: #333;
+    --zj-busKing-66: #666;
+    --zj-busKing-00: #008BD6;
+    --zj-busKing-005: #008bd67b;
+    --zj-busKing-c8: #C8C8C8;
+    --zj-busKing-e4: #E4E4E4;
+    --zj-busKing-20: #202020;
+    --zj-busKing-47: rgba(71, 71, 71, 0.4);
+    --zj-busKing-wi: 100px;
+
+    --zj-busTe-w7: 700;
+    --zj-busTe-w5: 500;
+    --zj-busTe-w4: 400;
+    --zj-busTe-w6: 600;
+    --zj-busTi-si1: 50px;
+    --zj-busTe-si1: 20px;
+    --zj-busTe-si2: 18px;
+    --zj-busTe-si3: 16px;
+    --zj-busTe-si4: 130px;
+    --zj-busTe-si5: 26px;
+    --zj-busTe-si6: 32px;
+    --zj-busBt-si1: 24px;
+    --zj-busBt-Sw: 26px;
+    --zj-busBt-Sw1: 130px;
+
+    --zj-busSc-baW: 50px;
+    --zj-busSc-btW: 120px;
+}
+
+.zj-9 {
+    width: 79.2% !important;
+    margin: auto !important;
+}
+
+.zj-9-Rg {
+    padding-right: 10.4% !important;
+}
+
+.zj-8 {
+    width: 69% !important;
+    margin: auto !important;
+}
+
+@media (max-width: 1536px) {
+    :root {
+        --zj-venTe-si: 14px;
+        --zj-venIc-si: 18px;
+
+        --zj-somaBan-si1: 52px;
+        --zj-somaBan-si2: 36px;
+        --zj-somaBan-si3: 16px;
+        --zj-somaBan-icoW: 8px;
+
+        --zj-busTi-si1: 38px;
+        --zj-busTe-si1: 14px;
+        --zj-busTe-si2: 16px;
+        --zj-busTe-si3: 14px !important;
+        --zj-busTe-si4: 100px;
+        --zj-busTe-si5: 22px;
+        --zj-busTe-si6: 28px;
+        --zj-busBt-si1: 20px;
+        --zj-busBt-Sw: 20px;
+        --zj-busBt-Sw1: 100px;
+        --zj-busKing-wi: 80px;
+    }
+
+    .zj-9 {
+        width: 84% !important;
+        margin: auto !important;
+    }
+
+    .zj-8 {
+        width: 74% !important;
+        margin: auto !important;
+    }
+
+    .zj-9-Rg {
+        padding-right: 8% !important;
+    }
+}
+
+@media (max-width: 1199.9px) {
+    .zj-9 {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .zj-8 {
+        width: 76% !important;
+        margin: auto !important;
+    }
+
+    .zj-9-Rg {
+        padding-right: 5% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --zj-somaBan-si1: 34px;
+        --zj-somaBan-si2: 20px;
+        --zj-somaBan-si3: 14px;
+        --zj-somaBan-wid: 92px;
+        --zj-busKing-wi: 66px;
+        --zj-busTe-si5: 20px;
+        --zj-busTe-si6: 24px;
+        --zj-busBt-Sw1: 80px;
+    }
+}
+
+@media (max-width: 499px) {
+    :root {
+        --zj-somaBan-si1: 28px;
+        --zj-somaBan-si2: 16px;
+        --zj-somaBan-icoW: 7px;
+
+        --zj-busTi-si1: 26px;
+        --zj-busBt-Sw: 18px;
+        --zj-busTe-si2: 14px;
+        --zj-busTe-si4: 50px;
+        --zj-busTe-si5: 18px;
+        --zj-busTe-si6: 22px;
+        --zj-busKing-wi: 50px;
+        --zj-busBt-Sw1: 60px;
+    }
+}
+
+[data-z-ico=ven]>i {
+    font-size: var(--zj-venIc-si);
+    font-weight: var(--zj-venIc-wb);
+    color: var(--zj-venTe-co);
+}
+
+[data-z-Ellayout] {
+    display: flex;
+    align-items: center;
+}
+
+[data-z-Ellayout=ovsp] {
+    height: 100%;
+}
+
+[data-z-Location] {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+[data-z-Location="47.2"] {
+    top: 47.2%;
+}
+
+[data-z-clamp] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+
+[data-z-clamp=tw] {
+    -webkit-line-clamp: 2;
+}
+
+[data-z-clamp=th] {
+    -webkit-line-clamp: 3;
+}
+
+[data-z-clamp=fo] {
+    -webkit-line-clamp: 4;
+}
+
+[data-z-Contect] .so01Ti p {
+    color: var(--zj-busKing-33);
+    font-size: var(--zj-busTi-si1);
+    font-weight: var(--zj-somaBan-w7);
+    line-height: calc(var(--zj-busTi-si1) * 1.4);
+    letter-spacing: 1px;
+}
+
+[data-z-Contect] .so01SmTi p {
+    color: var(--zj-busKing-00);
+    font-family: monli6;
+    font-size: var(--zj-busTe-si1);
+    line-height: calc(var(--zj-busTe-si1) * 1.4);
+}
+
+[data-z-Contect="part1"] .so01Ti p,
+[data-z-Contect="part1"] .so01SmTi p {
+    color: var(--zj-busKing-ff);
+}
+
+[data-z-Contect="cen"] .so01Ti p,
+[data-z-Contect="cen"] .so01SmTi p {
+    color: var(--zj-busKing-ff);
+    text-align: center;
+}
+
+[data-z-Contect="tit"] p {
+    color: var(--zj-busKing-33);
+    font-size: var(--zj-busTi-si1);
+    font-weight: var(--zj-busTe-w7);
+    line-height: calc(var(--zj-busTi-si1) * 1.4);
+    letter-spacing: 1px;
+}
+
+[data-z-Contect="smTit"] p {
+    color: var(--zj-busKing-00);
+    font-family: monli6;
+    font-size: var(--zj-busTe-si1);
+    line-height: calc(var(--zj-busTe-si1) * 1.4);
+}
+
+[data-z-BigBack] {
+    background-color: var(--zj-busKing-f7);
+}
+
+[data-z-BigBack="footer"] {
+    background-color: var(--zj-busKing-20);
+}
+
+[data-z-BigBack="img"] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+@keyframes scroll {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 100%;
+    }
+}
+
+@keyframes wordsLoop {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes dowm {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes spread1 {
+    0% {
+        transform: scale(1);
+        opacity: .2
+    }
+
+    100% {
+        transform: scale(6);
+        opacity: 0
+    }
+}
+
+@keyframes spin1 {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes spin2 {
+    to {
+        transform: rotate(-1turn);
+    }
+}
