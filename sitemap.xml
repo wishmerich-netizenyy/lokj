@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- 首页 -->
+    <url>
+        <loc>https://lokj.xyz/</loc>
+    </url>
+
+    <!-- 基础页面 -->
+    <url>
+        <loc>https://lokj.xyz/about/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/contact/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/news/</loc>
+    </url>
+
+    <!-- 应用领域 -->
+    <url>
+        <loc>https://lokj.xyz/case/gongshangyeyingyong/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/guandaozengya/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/nongtianguangai/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/shenghuogongshui/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/shuibengkaiguan/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/wushuichuli/</loc>
+    </url>
+
+    <!-- 产品分类页 -->
+
+    <!-- 自吸泵 -->
+    <url>
+        <loc>https://lokj.xyz/products/zxb/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/zxb/255_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/zxb/256_1.html</loc>
+    </url>
+
+    <!-- 离心泵 -->
+    <url>
+        <loc>https://lokj.xyz/products/lxb/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/lxb/255_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/lxb/256_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/lxb/257_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/lxb/258_1.html</loc>
+    </url>
+
+    <!-- 清水泵 -->
+    <url>
+        <loc>https://lokj.xyz/products/qsb/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/qsb/258_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/qsb/259_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/qsb/260_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/qsb/261_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/qsb/262_1.html</loc>
+    </url>
+
+    <!-- 污水泵 -->
+    <url>
+        <loc>https://lokj.xyz/products/wsb/</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/wsb/252_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/wsb/253_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/wsb/254_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/wsb/255_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/products/wsb/256_1.html</loc>
+    </url>
+
+        <url>
+        <loc>https://lokj.xyz/case/gongshangyeyingyong/4.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/case/gongshangyeyingyong/5.html</loc>
+    </url>
+
+
+    <!-- 新闻页面（示例） -->
+    <url>
+        <loc>https://lokj.xyz/news/7_1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://lokj.xyz/news/3_1.html</loc>
+    </url>
+
+</urlset>
