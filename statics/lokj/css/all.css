@@ -98,7 +98,8 @@
     content: "";
     width: 15px;
     height: 5px;
-    background: url(../images/venTeIco.png) no-repeat;
+    background: currentColor;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
     background-position: center;
     background-size: cover;
     left: 50%;
@@ -1726,7 +1727,8 @@
 }
 
 .soma05 {
-    background-image: url(../images/so05bg.jpg);
+    /* The original background asset is unavailable; keep the existing white backdrop. */
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -4630,7 +4632,8 @@
 }
 
 .ab01 {
-    background-image: url(../images/ab01bg.png);
+    /* Missing decorative artwork: retain the neutral page background. */
+    background-image: none;
 }
 
 .ab01 .ab01Sa {
@@ -4958,7 +4961,8 @@
 }
 
 .ab03 {
-    background-image: url(../images/ab03bg.jpg);
+    /* Missing decorative artwork: retain the neutral page background. */
+    background-image: none;
     padding-top: 110px;
     padding-bottom: 144px;
 }
@@ -5129,7 +5133,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.2);
-    background: url(../images/ball.png) no-repeat;
+    background: radial-gradient(circle, #008bd6 0 35%, rgba(0, 139, 214, 0.18) 38% 65%, transparent 68%);
     background-size: 100%;
     transition: all 0.5s ease;
 }
@@ -5627,7 +5631,8 @@
 }
 
 .ab06 {
-    background-image: url(../images/ab06bg.jpg);
+    /* Missing decorative artwork: retain the neutral page background. */
+    background-image: none;
 }
 
 .ab06 .ab06Sa {
@@ -8264,7 +8269,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.2);
-    background: url(../images/ball.png) no-repeat;
+    background: radial-gradient(circle, #008bd6 0 35%, rgba(0, 139, 214, 0.18) 38% 65%, transparent 68%);
     background-size: 100%;
     transition: all 0.5s ease;
 }

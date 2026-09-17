@@ -5243,130 +5243,151 @@
 
 @font-face {
   font-family: objectivity-black-3;
-  src: url("../fonts/Objectivity/objectivity-black-3.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-black-slanted-2;
-  src: url("../fonts/Objectivity/objectivity-black-slanted-2.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold Italic"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-bold-4;
-  src: url("../fonts/Objectivity/objectivity-bold-4.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-light-6;
-  src: url("../fonts/Objectivity/objectivity-light-6.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-light-slanted-5;
-  src: url("../fonts/Objectivity/objectivity-light-slanted-5.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Italic"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-medium-8;
-  src: url("../fonts/Objectivity/objectivity-medium-8.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-medium-slanted-7;
-  src: url("../fonts/Objectivity/objectivity-medium-slanted-7.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Italic"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-super-9;
-  src: url("../fonts/Objectivity/objectivity-super-9.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: objectivity-thin-10;
-  src: url("../fonts/Objectivity/objectivity-thin-10.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: pmm;
-  src: url("../fonts/Career/pmm.TTF");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: D-DIN-Bold;
-  src: url("../fonts/d-din/D-DIN-Bold.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: D-DIN-Italic;
-  src: url("../fonts/d-din/D-DIN-Italic.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Italic"), local("Arial");
 }
 
 @font-face {
   font-family: D-DIN;
-  src: url("../fonts/d-din/D-DIN.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: D-DINCondensed-Bold;
-  src: url("../fonts/d-din/D-DINCondensed-Bold.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: D-DINCondensed;
-  src: url("../fonts/d-din/D-DINCondensed-Bold.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: D-DINExp-Bold;
-  src: url("../fonts/d-din/D-DINExp-Bold.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: D-DINExp-Italic;
-  src: url("../fonts/d-din/D-DINExp-Italic.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Italic"), local("Arial");
 }
 
 @font-face {
   font-family: D-DINExp;
-  src: url("../fonts/d-din/D-DINExp.otf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: D-DIN-dincor;
-  src: url("../fonts/dincor/DINCOROS-Bold-2.ttf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: robbo;
-  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial Bold"), local("Arial");
 }
 
 @font-face {
   font-family: robboM;
-  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  /* Original font is absent; use a local sans-serif fallback. */
+  src: local("Arial"), local("Arial");
 }
 
 @font-face {
   font-family: monli2;
-  src: url("../fonts/Montserrat/Montserrat-Black-2.otf");
+  src: local("Arial Bold"), local("Liberation Sans Bold");
 }
 
 @font-face {
   font-family: monli3;
-  src: url("../fonts/Montserrat/Montserrat-Bold-3.otf");
+  src: local("Arial Bold"), local("Liberation Sans Bold");
 }
 
 @font-face {
   font-family: monli6;
-  src: url("../fonts/Montserrat/Montserrat-Regular-8.otf");
+  src: local("Arial"), local("Liberation Sans");
 }
 
 @font-face {
   font-family: monli7;
-  src: url("../fonts/Montserrat/Montserrat-Medium-7.otf");
+  src: local("Arial"), local("Liberation Sans");
 }
 
 @font-face {
   font-family: monli9;
-  src: url("../fonts/Montserrat/Montserrat-SemiBold-9.otf");
+  src: local("Arial Bold"), local("Liberation Sans Bold");
 }
